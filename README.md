@@ -10,7 +10,7 @@ Prediction of Alzheimer's desease using image recognition
 * **Asignatura:** Procesamiento de Imágenes Biomédicas con Inteligencia Artificial
 * **Profesor:** Alberto de Santos
 * **Contexto:** Ingeniería Biomédica
-* **Curso/Fecha:** [Incluir el curso académico o la fecha de finalización]
+* **Curso/Fecha:** 2025
 * **URL del Repositorio:** [https://github.com/RAvila-bioeng/M.R.AI]
 
 ---
