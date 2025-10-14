@@ -1,8 +1,8 @@
 # M.R.AI
 Prediction of Alzheimer's desease using image recognition
-# 🧠 Detección y Clasificación de Alzheimer mediante Neuroimagen (MRI) e Inteligencia Artificial
+# Detección y Clasificación de Alzheimer mediante Neuroimagen (MRI) e Inteligencia Artificial
 
-## 🎓 Marco Académico e Institucional
+## Marco Académico e Institucional
 
 **Proyecto de Clasificación de Imágenes MRI para Detección de Alzheimer**
 
@@ -15,7 +15,7 @@ Prediction of Alzheimer's desease using image recognition
 
 ---
 
-## 🎯 Objetivo del Proyecto
+## Objetivo del Proyecto
 
 El objetivo principal de este proyecto es desarrollar un modelo de **Deep Learning** robusto y, fundamentalmente, **interpretable** para la clasificación automatizada de imágenes de Resonancia Magnética (MRI) cerebral, con el fin de distinguir entre sujetos sanos (Normal Control, NC) y pacientes con diferentes estadios de la Enfermedad de Alzheimer (AD, MCI).
 
@@ -27,7 +27,7 @@ El objetivo principal de este proyecto es desarrollar un modelo de **Deep Learni
 
 ---
 
-## 📝 Descripción del Problema
+## Descripción del Problema
 
 La **Enfermedad de Alzheimer (EA)** es la causa más común de demencia, caracterizada por un deterioro cognitivo progresivo. El diagnóstico temprano es crucial para la gestión clínica y el inicio de tratamientos. Este proyecto aborda el desafío de la detección temprana y la clasificación mediante el análisis de neuroimágenes estructurales (MRI), que pueden mostrar atrofia cerebral, especialmente en el hipocampo y la corteza.
 
@@ -35,7 +35,7 @@ La **Enfermedad de Alzheimer (EA)** es la causa más común de demencia, caracte
 
 ---
 
-## 🛠️ Stack Tecnológico
+## Stack Tecnológico
 
 | Categoría | Herramientas/Librerías | Propósito |
 | :--- | :--- | :--- |
@@ -47,7 +47,7 @@ La **Enfermedad de Alzheimer (EA)** es la causa más común de demencia, caracte
 
 ---
 
-## 📊 Metodología Científica (Pipeline CRISP-DM)
+## Metodología Científica (Pipeline CRISP-DM)
 
 El desarrollo del proyecto sigue un enfoque científico y reproducible:
 
@@ -62,7 +62,7 @@ El desarrollo del proyecto sigue un enfoque científico y reproducible:
 
 ---
 
-## 📈 Métricas de Evaluación Clínica
+## Métricas de Evaluación Clínica
 
 La evaluación no se limita a la precisión (*Accuracy*), sino que se centra en el **rigor diagnóstico** y las implicaciones clínicas:
 
@@ -73,7 +73,7 @@ La evaluación no se limita a la precisión (*Accuracy*), sino que se centra en 
 
 ---
 
-## 🎨 Interpretabilidad y Explicabilidad (XAI)
+## Interpretabilidad y Explicabilidad (XAI)
 
 Dada la aplicación médica, la interpretabilidad es fundamental. Se implementarán las siguientes técnicas:
 
@@ -83,7 +83,7 @@ Dada la aplicación médica, la interpretabilidad es fundamental. Se implementar
 
 ---
 
-## 💻 Instalación y Uso
+## Instalación y Uso
 
 ### 1. Clonar el Repositorio
 
