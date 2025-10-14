@@ -11,7 +11,7 @@ Prediction of Alzheimer's desease using image recognition
 * **Profesor:** Alberto de Santos
 * **Contexto:** Ingeniería Biomédica
 * **Curso/Fecha:** [Incluir el curso académico o la fecha de finalización]
-* **URL del Repositorio:** [Incluir la URL real de GitHub]
+* **URL del Repositorio:** [https://github.com/RAvila-bioeng/M.R.AI]
 
 ---
 
@@ -43,7 +43,7 @@ La **Enfermedad de Alzheimer (EA)** es la causa más común de demencia, caracte
 | **Neuroimagen** | nibabel, SimpleITK | Lectura, escritura y manipulación de archivos MRI (NIfTI). |
 | **Explicabilidad (XAI)** | LIME, SHAP, Grad-CAM | Interpretabilidad del modelo para justificar decisiones. |
 | **Ciencia de Datos** | NumPy, Pandas, Scikit-learn | Preprocesamiento de datos, métricas y validación. |
-| **Entorno** | Python 3.x, Conda/Pip | Gestión de dependencias. |
+| **Entorno** | Python 3.11, Conda/Pip | Gestión de dependencias. |
 
 ---
 
@@ -89,4 +89,4 @@ Dada la aplicación médica, la interpretabilidad es fundamental. Se implementar
 
 ```bash
 git clone [https://dle.rae.es/repositorio](https://dle.rae.es/repositorio)
-cd nombre-del-repositorio
+cd M.R.AI
