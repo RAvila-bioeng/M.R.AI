@@ -1,92 +1,93 @@
 # M.R.AI
 Prediction of Alzheimer's desease using image recognition
-# Detección y Clasificación de Alzheimer mediante Neuroimagen (MRI) e Inteligencia Artificial
 
-## Marco Académico e Institucional
+# Alzheimer's Disease Detection and Classification using Neuroimaging (MRI) and Artificial Intelligence
 
-**Proyecto de Clasificación de Imágenes MRI para Detección de Alzheimer**
+## Academic and Institutional Framework
 
-* **Institución:** Universidad Francisco de Vitoria (UFV)
-* **Asignatura:** Procesamiento de Imágenes Biomédicas con Inteligencia Artificial
-* **Profesor:** Alberto de Santos
-* **Contexto:** Ingeniería Biomédica
-* **Curso/Fecha:** 2025
-* **URL del Repositorio:** [https://github.com/RAvila-bioeng/M.R.AI]
+**MRI Image Classification Project for Alzheimer's Detection**
 
----
-
-## Objetivo del Proyecto
-
-El objetivo principal de este proyecto es desarrollar un modelo de **Deep Learning** robusto y, fundamentalmente, **interpretable** para la clasificación automatizada de imágenes de Resonancia Magnética (MRI) cerebral, con el fin de distinguir entre sujetos sanos (Normal Control, NC) y pacientes con diferentes estadios de la Enfermedad de Alzheimer (AD, MCI).
-
-### Objetivos Específicos
-
-1.  **Corto Plazo:** Implementar un *pipeline* completo de preprocesamiento de neuroimágenes (registro, normalización, etc.) y entrenar una Red Neuronal Convolucional (CNN) base.
-2.  **Medio Plazo:** Optimizar la arquitectura del modelo (ej. 3D CNN, Transfer Learning) y lograr métricas de desempeño que superen los *benchmarks* académicos (ej. Accuracy > 88%).
-3.  **Largo Plazo:** Integrar técnicas de **Explicabilidad (XAI)** como Grad-CAM, LIME o SHAP para justificar la clasificación y visualizar las regiones cerebrales de mayor relevancia diagnóstica.
+* **Institution:** Universidad Francisco de Vitoria (UFV)
+* **Course:** Biomedical Image Processing with Artificial Intelligence
+* **Professor:** Alberto de Santos
+* **Context:** Biomedical Engineering
+* **Course/Date:** December 2025
+* **Repository URL:** [https://github.com/RAvila-bioeng/M.R.AI]
 
 ---
 
-## Descripción del Problema
+## Project Goal
 
-La **Enfermedad de Alzheimer (EA)** es la causa más común de demencia, caracterizada por un deterioro cognitivo progresivo. El diagnóstico temprano es crucial para la gestión clínica y el inicio de tratamientos. Este proyecto aborda el desafío de la detección temprana y la clasificación mediante el análisis de neuroimágenes estructurales (MRI), que pueden mostrar atrofia cerebral, especialmente en el hipocampo y la corteza.
+The main goal of this project is to develop a robust and, critically, **interpretable Deep Learning** model for the automated classification of cerebral Magnetic Resonance Imaging (MRI) scans. The aim is to distinguish between healthy subjects (Normal Control, NC) and patients with different stages of Alzheimer's Disease (AD, MCI).
 
-**Relevancia Clínica:** Un sistema de soporte a la decisión basado en IA puede ayudar a los radiólogos y neurólogos a mejorar la **objetividad** y **eficiencia** del diagnóstico, minimizando la variabilidad inter-observador.
+### Specific Objectives
+
+1. **Short Term:** Implement a complete neuroimaging preprocessing *pipeline* (registration, normalization, etc.) and train a baseline Convolutional Neural Network (CNN).
+2. **Medium Term:** Optimize the model architecture (e.g., 3D CNN, Transfer Learning) and achieve performance metrics that surpass academic *benchmarks* (e.g., Accuracy > 88%).
+3. **Long Term:** Integrate **Explainability (XAI)** techniques such as Grad-CAM, LIME, or SHAP to justify the classification and visualize the cerebral regions of greatest diagnostic relevance.
 
 ---
 
-## Stack Tecnológico
+## Problem Description
 
-| Categoría | Herramientas/Librerías | Propósito |
+**Alzheimer's Disease (AD)** is the most common cause of dementia, characterized by progressive cognitive decline. Early diagnosis is crucial for clinical management and the initiation of treatments. This project addresses the challenge of early detection and classification through the analysis of structural neuroimaging (MRI), which can reveal cerebral atrophy, especially in the hippocampus and cortex.
+
+**Clinical Relevance:** An AI-based decision support system can assist radiologists and neurologists in improving the **objectivity** and **efficiency** of diagnosis, minimizing inter-observer variability.
+
+---
+
+## Technology Stack
+
+| Category | Tools/Libraries | Purpose |
 | :--- | :--- | :--- |
-| **Deep Learning** | TensorFlow, Keras, PyTorch | Desarrollo y entrenamiento de modelos CNN. |
-| **Neuroimagen** | nibabel, SimpleITK | Lectura, escritura y manipulación de archivos MRI (NIfTI). |
-| **Explicabilidad (XAI)** | LIME, SHAP, Grad-CAM | Interpretabilidad del modelo para justificar decisiones. |
-| **Ciencia de Datos** | NumPy, Pandas, Scikit-learn | Preprocesamiento de datos, métricas y validación. |
-| **Entorno** | Python 3.11, Conda/Pip | Gestión de dependencias. |
+| **Deep Learning** | TensorFlow, Keras, PyTorch | Development and training of CNN models. |
+| **Neuroimaging** | nibabel, SimpleITK | Reading, writing, and manipulation of MRI files (NIfTI). |
+| **Explainability (XAI)** | LIME, SHAP, Grad-CAM | Model interpretability to justify decisions. |
+| **Data Science** | NumPy, Pandas, Scikit-learn | Data preprocessing, metrics, and validation. |
+| **Environment** | Python 3.11, Conda/Pip | Dependency management. |
 
 ---
 
-## Metodología Científica (Pipeline CRISP-DM)
+## Scientific Methodology (CRISP-DM Pipeline)
 
-El desarrollo del proyecto sigue un enfoque científico y reproducible:
+The project development follows a scientific and reproducible approach:
 
-1.  **Entendimiento del Negocio/Clínica:** Definición del problema del Alzheimer, selección de biomarcadores y métricas clínicamente relevantes.
-2.  **Entendimiento de los Datos:** Exploración del *Dataset* (ej. ADNI, OASIS, o Kaggle). Análisis de la calidad de la imagen, distribución de clases y formato.
-3.  **Preparación de Datos:**
-    * Preprocesamiento: Conversión de formato, **registro** y **normalización** a un *template* estándar (ej. MNI).
-    * Aumento de Datos (*Data Augmentation*) para mejorar la robustez del modelo.
-4.  **Modelado:** Diseño e implementación de la arquitectura de Deep Learning (ej. Red 3D CNN adaptada).
-5.  **Evaluación:** Validación rigurosa con métricas específicas y **Validación Cruzada** (*Cross-Validation*).
-6.  **Despliegue/Comunicación:** Documentación, repositorio GitHub y demostración del modelo y sus explicaciones.
-
----
-
-## Métricas de Evaluación Clínica
-
-La evaluación no se limita a la precisión (*Accuracy*), sino que se centra en el **rigor diagnóstico** y las implicaciones clínicas:
-
-* **Accuracy:** [Objetivo: 88-95%] - Proporción de predicciones correctas.
-* **Sensibilidad (Recall):** [Objetivo: > 85%] - Capacidad de identificar correctamente a los pacientes enfermos (evitar Falsos Negativos). **Crucial para el *screening* temprano.**
-* **Especificidad:** [Objetivo: > 90%] - Capacidad de identificar correctamente a los sujetos sanos (evitar Falsos Positivos).
-* **AUC (Area Under the Curve):** [Objetivo: > 0.92] - Medida de discriminación entre las clases.
+1. **Business/Clinical Understanding:** Definition of the Alzheimer's problem, selection of biomarkers, and clinically relevant metrics.
+2. **Data Understanding:** Exploration of the *Dataset* (e.g., ADNI, OASIS, or Kaggle). Analysis of image quality, class distribution, and format.
+3. **Data Preparation:**
+    * Preprocessing: Format conversion, **registration**, and **normalization** to a standard *template* (e.g., MNI).
+    * *Data Augmentation* to improve model robustness.
+4. **Modeling:** Design and implementation of the Deep Learning architecture (e.g., adapted 3D CNN).
+5. **Evaluation:** Rigorous validation with specific metrics and **Cross-Validation**.
+6. **Deployment/Communication:** Documentation, GitHub repository, and demonstration of the model and its explanations.
 
 ---
 
-## Interpretabilidad y Explicabilidad (XAI)
+## Clinical Evaluation Metrics
 
-Dada la aplicación médica, la interpretabilidad es fundamental. Se implementarán las siguientes técnicas:
+Evaluation is not limited to accuracy, but focuses on **diagnostic rigor** and clinical implications:
 
-* **Grad-CAM:** Generación de **Mapas de Activación** superpuestos en las imágenes MRI originales, destacando las regiones cerebrales (ej. hipocampo) que el modelo consideró más relevantes para la clasificación.
-* **LIME (Local Interpretable Model-agnostic Explanations):** Proporcionar explicaciones para predicciones individuales (locales).
-* **SHAP (SHapley Additive exPlanations):** Análisis de la contribución de diferentes características o regiones a la decisión final.
+* **Accuracy:** [Goal: 88-95%] - Proportion of correct predictions.
+* **Sensitivity (Recall):** [Goal: > 85%] - Ability to correctly identify sick patients (avoiding False Negatives). **Crucial for early *screening*.**
+* **Specificity:** [Goal: > 90%] - Ability to correctly identify healthy subjects (avoiding False Positives).
+* **AUC (Area Under the Curve):** [Goal: > 0.92] - Measure of discrimination between classes.
 
 ---
 
-## Instalación y Uso
+## Interpretability and Explainability (XAI)
 
-### 1. Clonar el Repositorio
+Given the medical application, interpretability is fundamental. The following techniques will be implemented:
+
+* **Grad-CAM:** Generation of **Activation Maps** superimposed on the original MRI images, highlighting the cerebral regions (e.g., hippocampus) the model considered most relevant for classification.
+* **LIME (Local Interpretable Model-agnostic Explanations):** Providing explanations for individual (local) predictions.
+* **SHAP (SHapley Additive exPlanations):** Analysis of the contribution of different features or regions to the final decision.
+
+---
+
+## Installation and Usage
+
+### 1. Clone the Repository
 
 ```bash
-git clone [https://dle.rae.es/repositorio](https://dle.rae.es/repositorio)
+git clone [[https://github.com/RAvila-bioeng/M.R.AI](https://github.com/RAvila-bioeng/M.R.AI)]
 cd M.R.AI
